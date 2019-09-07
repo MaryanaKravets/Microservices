@@ -1,0 +1,52 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="5" author="Maryanna">
+        <insert tableName="customers">
+            <column name="name">Elizabeth Lim</column>
+            <column name="age">25</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Pierce Brown</column>
+            <column name="age">32</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">David McCullough</column>
+            <column name="age">45</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Michael Robotmhan</column>
+            <column name="age">22</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Ellison Cooper</column>
+            <column name="age">56</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Rachel DeLoache</column>
+            <column name="age">39</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Zara Raheem</column>
+            <column name="age">23</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Elyssa Friendland</column>
+            <column name="age">29</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Spencer Quinn</column>
+            <column name="age">44</column>
+        </insert>
+        <insert tableName="customers">
+            <column name="name">Jay McLean</column>
+            <column name="age">22</column>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
