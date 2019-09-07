@@ -1,0 +1,52 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="5" author="Maryanna">
+        <insert tableName="products">
+            <column name="name">Milk</column>
+            <column name="price">10</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Sugar</column>
+            <column name="price">22</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Bread</column>
+            <column name="price">257</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Potatoes</column>
+            <column name="price">34</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Butter</column>
+            <column name="price">180</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Fish</column>
+            <column name="price">290</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Meat</column>
+            <column name="price">140</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Grape</column>
+            <column name="price">45</column>
+        </insert>
+        <insert tableName="products">
+            <column name="name">Oil</column>
+            <column name="price">30</column>
+        </insert>
+        <insert tableName="products">
+        <column name="name">Tea</column>
+        <column name="price">60</column>
+    </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
